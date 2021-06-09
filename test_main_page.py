@@ -12,4 +12,5 @@ links = [
 def test_guest_can_go_to_login_page(browser, link):
     page = MainPage(browser, link)  # инициализируем Page Object
     page.open()  # открываем страницу
+    page.should_be_login_link()
     page.go_to_login_page()  # выполняем метод страницы
