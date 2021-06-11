@@ -7,6 +7,7 @@ from pages.login_page import LoginPage
 links = [
     'http://selenium1py.pythonanywhere.com/',
     # 'http://selenium1py.pythonanywhere.com/catalogue/the-shellcoders-handbook_209?promo=midsummer',
+    # 'http://selenium1py.pythonanywhere.com/catalogue/the-shellcoders-handbook_209/?promo=newYear',
 ]
 
 
